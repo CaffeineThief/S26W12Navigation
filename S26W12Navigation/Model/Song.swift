@@ -5,6 +5,8 @@
 //  Created by CaffeineThief on 11/18/26.
 //
 
+import Foundation
+
 struct Song: Identifiable, Hashable {
     let id = UUID()
     let title: String
